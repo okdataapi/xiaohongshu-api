@@ -2,7 +2,7 @@
 
 **小红书数据 API · 小红书笔记搜索 · 小红书评论采集 · 小红书博主数据 · 小红书热点 · 蒲公英达人报价。**
 
-这个仓库是 [okdata](https://okdata.online/zh/?src=gh-xiaohongshu-api) 的小红书接口示例：30 个接口在线可用，一个 API Key 调用，按次计费（$0.02 起），参数错误这类还没请求数据源就被拦下的调用不扣费。不用登录平台账号，不用 Cookie，不开浏览器，所以也不存在账号被风控的问题。
+这个仓库是 [okdata](https://okdata.online/zh/?src=gh-xiaohongshu-api) 的小红书接口示例：30 个接口在线可用，一个 API Key 调用，按次计费（$0.02 起），不用订阅。不用登录平台账号，不用 Cookie，不开浏览器，所以也不存在账号被风控的问题。
 
 [免费注册拿 Key（送 $0.1 试用额度）](https://okdata.online/zh/signup/?src=gh-xiaohongshu-api) · [全部接口文档](https://okdata.online/zh/apis/?src=gh-xiaohongshu-api) · [接入 AI（MCP）](https://okdata.online/zh/mcp/?src=gh-xiaohongshu-api)
 
@@ -86,7 +86,7 @@ Cursor、Cherry Studio、WorkBuddy 等支持远程 MCP 的客户端：
 
 **要登录平台账号吗？** 不用。数据是公开内容，okdata 在服务端获取，你的账号完全不参与。
 
-**怎么收费？** 每个接口单独定价，表里写的就是一次调用的价格；按条计费的接口按实际返回条数算。请求到了数据源的调用，返回为空、查不到或出错也照常计费（按条计费的按 1 条算）；参数错误这类还没请求数据源就被拦下的不扣费。新账号送 $0.1 试用额度，之后按需充值，没有订阅。价格页：https://okdata.online/zh/pricing/
+**怎么收费？** 每个接口单独定价，表里写的就是一次调用的价格；按条计费的接口按实际返回条数算。新账号送 $0.1 试用额度，之后 $10 起充，余额不过期，没有订阅。价格页：https://okdata.online/zh/pricing/ ，计费说明：https://okdata.online/zh/docs/billing/
 
 **和官方开放平台有什么区别？** 官方开放平台只能读授权给你的账号自己的数据，而且要企业资质和审核；这里是平台上任何人都能看到的公开数据，比如搜索结果、别人的笔记或视频、评论、热榜。
 
